@@ -1,0 +1,14 @@
+import java.io.*;
+class recursividadfactorial
+{
+  public static void main (String[]args)
+  {
+    int num=4;
+    int acum=1;
+    for (int i=1; i<=num; i++)
+    {
+      acum=acum*i;
+      System.out.println(acum);
+     }
+   }
+}
