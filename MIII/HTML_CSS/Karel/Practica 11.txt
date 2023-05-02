@@ -1,0 +1,23 @@
+class program {
+    void Zero (n)
+    {
+      if (iszero(n))
+      {
+       pickbeeper();
+      }//if
+      else
+      { 
+       iterate(pred(n))
+        {
+        putbeeper();
+        }//iterate
+      }//else
+     }//void
+    program () {
+        // Define una nueva instrucción que haga que Karel
+        //ponga "n" zumbadores en donde se encuentra, pero 
+        //si "n" es cero, recoja 1 zumbador.
+        Zero(0);
+        turnoff();
+    }
+}//class

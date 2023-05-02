@@ -1,0 +1,43 @@
+class program {
+    void turnright()
+     {
+       iterate (3)
+       {
+         turnleft();
+       }//iterate
+     }//void
+     void colocanuevo(n)
+     {
+       iterate(succ(succ(n)))
+       {
+         if (frontIsBlocked)
+         {
+           turnleft();
+           move();
+           turnright();
+           move();
+           turnright();
+           move();
+           turnleft();
+         }//if
+         else
+           move();
+       }//iterate
+       iterate(pred(pred(n)))
+       {
+         putbeeper();
+       }//iterate
+     }//void
+    program () {
+        //  Escribe una nueva instrucción que reciba un 
+        //número n y mueva a Karel n + 2 veces (validando
+        //el choque contra paredes), y posteriormente, 
+        //coloque n - 2 zumbadores en la posición en donde
+        //está. PISTA: Usa un iterate para mover a Karel y
+        //otro para colocar los zumbadores. NO se vale 
+        //colocar instrucciones fuera de los ciclos
+        //iterate.
+        colocanuevo(3);
+        turnoff();
+    }
+}

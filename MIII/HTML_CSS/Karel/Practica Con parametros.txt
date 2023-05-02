@@ -1,0 +1,17 @@
+class program {
+    void turn(n)
+    {
+      iterate(n)
+      {
+        turnleft();
+      }
+    }
+    program () {
+        //  Escribe una nueva instrucción que avance a 
+        //Karel el número de veces que se le mande como 
+        //parámetro. Debes de evitar que Karel choque con
+        //alguna pared.
+        turn(3);
+        turnoff();
+    }
+}

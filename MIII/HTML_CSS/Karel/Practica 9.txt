@@ -1,0 +1,37 @@
+class program {
+    void turnright()
+    {
+      iterate(3)
+      {
+        turnleft();
+      }//iterate
+    }//void
+    void avanzar(i)
+    {
+      iterate (i)
+      {
+        if (frontIsBlocked)
+        {
+          turnleft();
+          move();
+          turnright();
+          move();
+          turnright();
+          move();
+          turnleft();
+        }//if
+        else
+        {
+          move();
+        }//else
+     }//iterate
+   }//void
+    program () {
+        //  Escribe una nueva instrucción que avance a 
+        //Karel el número de veces que se le mande como 
+        //parámetro. Debes de evitar que Karel choque con
+        //alguna pared.
+        avanzar(7);
+        turnoff();
+    }//program
+}//class
