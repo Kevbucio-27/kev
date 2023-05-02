@@ -1,0 +1,31 @@
+p{
+    font-family: Arial;
+}
+
+
+
+
+
+.card{
+    border-color: black;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    width: 300px;
+
+}
+
+
+.title{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}

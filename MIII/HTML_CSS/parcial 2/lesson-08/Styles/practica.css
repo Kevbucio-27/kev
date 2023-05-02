@@ -1,0 +1,13 @@
+.thumbnails{
+    width: 250px;
+    display: block;
+}
+
+.video-author,
+.video-stats{
+    display: inline-block;
+}
+
+.video-title{
+    width: 300px;
+}

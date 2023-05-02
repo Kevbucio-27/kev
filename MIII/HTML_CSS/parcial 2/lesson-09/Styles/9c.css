@@ -1,0 +1,10 @@
+.border{
+    border-color: rgb(133, 133, 133);
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    width: 300px;
+
+}
+

@@ -1,0 +1,20 @@
+class program {
+void recursiva(n)
+{
+  if(frontIsClear)
+  {
+    move();
+    recursiva(succ(n));
+   }
+   else
+   {
+     iterate(n)
+     putbeeper();
+   }
+}
+    program () {
+        // TODO poner codigo aqui
+        recursiva(0);
+        turnoff();
+    }
+}

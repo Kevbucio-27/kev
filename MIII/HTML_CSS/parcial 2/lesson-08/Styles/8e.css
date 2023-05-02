@@ -1,0 +1,51 @@
+.text{
+    font-family: Arial;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+input{
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-bottom: 12px;
+}
+
+.destination{
+    display: block;
+}
+
+.location{
+    display: block;
+}
+
+.later{
+    background-color: gray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+.Uber-button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

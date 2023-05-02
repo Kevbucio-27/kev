@@ -1,0 +1,32 @@
+.thumbnails{
+    width: 250px;
+    display: block;
+}
+
+.video-author,
+.video-stats{
+    display: inline-block;
+}
+
+.video-title{
+    width: 300px;
+} 
+
+.tumbnails{
+    width: 250px;
+    display: block;
+}
+
+.vide-author,
+.vide-stats{
+    display: inline-block;
+}
+
+.vide-title{
+    width: 300px;
+} 
+
+div{
+    margin-right: 40px;
+    display: inline-block;
+}
